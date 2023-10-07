@@ -1,0 +1,79 @@
+
+.todos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  .todo-item {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px; 
+  }
+  
+  
+  .todo-title {
+    flex-grow: 1;
+    color:black;
+  }
+  
+ 
+  .todo-status button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+  }
+  
+ 
+  .todo-status button.completed {
+    background-color: green;
+  }
+  
+  /* Incomplete status button */
+  .todo-status button.incomplete {
+    background-color: yellow;
+    color:black;
+    border: 1px solid black;
+  }
+  
+  /* Edit and Delete button styling */
+  .todo-edit-btn{
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+  }
+
+  .todo-delete-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+  }
+
+
+  /* Todo.css */
+
+/* Styling for the todo title */
+.todo-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333; /* Adjust the color as needed */
+}
+
+  

@@ -1,0 +1,99 @@
+/* TodoInput.css */
+
+/* Style for the input element */
+.todo-input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  /* Add focus styling */
+  .todo-input:focus {
+    border-color: #007BFF;
+  }
+
+  
+  /* TodoInput.css */
+
+/* Style for the input element */
+.todo-input {
+    width: 70%; /* Adjust the width as needed */
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  /* Add focus styling */
+  .todo-input:focus {
+    border-color: #007BFF;
+  }
+  
+  /* Style for the button */
+  .add-button {
+    width: 28%; /* Adjust the width as needed */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  /* Add hover effect for the button */
+  .add-button:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+  }
+
+  
+  /* TodoInput.css */
+
+/* Container for input and button */
+.todo-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Style for the input element */
+  .todo-input {
+    flex-grow: 1; /* Takes up remaining space */
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  /* Add focus styling */
+  .todo-input:focus {
+    border-color: #007BFF;
+  }
+  
+  /* Style for the button */
+  .add-button {
+    margin-left: 10px; /* Add some space between input and button */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  /* Add hover effect for the button */
+  .add-button:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+  }
+  
